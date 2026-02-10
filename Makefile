@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -Wall -g
+CFLAGS= -Wall -Wextra -pedantic -std=c99
 OUTPUT_DIR=output
 TARGET=$(OUTPUT_DIR)/my_text_editor
 SRCS=main.c
